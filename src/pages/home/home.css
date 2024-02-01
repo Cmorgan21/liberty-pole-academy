@@ -1,0 +1,244 @@
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('../../../public/assets/images/Liberty-Sal.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+    color: white;
+    text-align: center;
+}
+  
+.text-overlay {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    text-align: left;
+}
+
+.button-overlay {
+    position: absolute;
+    bottom: 100px; 
+    right: 100px; 
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #dd478f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+  
+.button-overlay:hover {
+background-color: #a0336f; 
+}
+
+.button {
+    padding: 10px 20px;
+    color: #dd478f;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid #dd478f 2px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #dd478f; 
+    color: white;
+}
+
+.introduction-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    background-color: #dd478f;
+    color: white;
+
+}
+
+.introduction-content {
+    display: flex;
+    justify-content: center;
+
+    padding: 40px 20%;
+}
+
+.introduction-container > h2 {
+    margin-top: 10px;
+}
+  
+.home-classes-times-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.class-image-container {
+    width: 50%;
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+.class-image-container img {
+    height: 400px;
+    object-fit: cover; 
+}
+
+.class-button-text-container {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class-button-text-container > h2 {
+    justify-self: flex-start;
+
+}
+
+.class-button-text-container a {
+    width: fit-content;
+    margin: 10px 0
+
+}
+
+.prices-container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 75px 0;
+}
+
+.prices-container > h2 {
+    align-self: center;
+    margin-bottom: 40px;
+
+}
+
+.box-containers {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.price-box {
+    height: 300px;
+    padding: 20px;
+    width: 30%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #dd478f;
+    color: white;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.price-box-popular {
+    height: 400px;
+    width: 30%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #dd478f;
+    color: white;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.price-box > h3 {
+    border-bottom: solid 2px white;
+    padding-bottom: 10px;
+
+}
+
+.popular-price-content {
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.popular-price-detail {
+    display: flex;
+    height:50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.button-passes {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid white 2px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button-passes:hover {
+    background-color: white; 
+    color: #dd478f;
+}
+
+@media (max-width: 768px) {
+.prices-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-box {
+    width: 80%;
+    margin-bottom: 20px;
+}
+}
+
+
+.benefits-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url('../../../public/assets/images/liberty6.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.benefits-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dd478f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.benefits-overlay > h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.benefits-list {
+    padding: 0;
+    list-style: none;
+}
+
+.benefits-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-image: url('../../../public/assets/images/liberty-logo.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+    color: white;
+}
